@@ -1,0 +1,76 @@
+@import "form.scss";
+@import "helpers.scss";
+@import "buttons.scss";
+@import "custom-style.scss";
+
+* {
+  outline: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: $Montserrat;
+  font-size: 14px;
+  color: $black;
+  font-weight: 300;
+  background: $white;
+}
+
+.ets__container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.ets__modal {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 16px;
+  span {
+    font-weight: 600;
+  }
+  .ets__moda-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+#site-modal {
+  .close.modal-close {
+    position: absolute;
+    right: -11px;
+    top: -12px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background: #ebf1fa;
+    font-size: 32px;
+    font-weight: 400;
+    color: #61656e;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .modal-md {
+    max-width: 400px;
+  }
+  .modal-header {
+    border: 0;
+    padding: 0 1rem;
+    font-size: 23px;
+    font-weight: 800;
+    h5 {
+      font-weight: 600;
+      margin: 20px 0 0px 0;
+    }
+  }
+  .modal-body {
+    padding: 10px 1rem 19px 1rem;
+  }
+}

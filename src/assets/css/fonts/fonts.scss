@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@font-face {
+    font-family: "icomoon";
+    src: url("/src/assets/fonts/icomoon.eot?n5rdpt");
+    src: url("/src/assets/fonts/icomoon.eot?n5rdpt#iefix") format("embedded-opentype"), url("/src/assets/fonts/icomoon.ttf?n5rdpt") format("truetype"), url("/src/assets/fonts/icomoon.woff?n5rdpt") format("woff"), url("/src/assets/fonts/icomoon.svg?n5rdpt#icomoon") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: "icomoon" !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Arrow-Down:before {
+    content: "\e902";
+}
+
+.icon-Arrow-Left:before {
+    content: "\e905";
+}
+
+.icon-Arrow-Right:before {
+    content: "\e906";
+}
+
+.icon-Arrow-Up:before {
+    content: "\e907";
+}
+
+.icon-Close:before {
+    content: "\e92a";
+}
+
+.icon-Plus:before {
+    content: "\e961";
+}
+
+.icon-Sort-Arrow:before {
+    content: "\e97b";
+}

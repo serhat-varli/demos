@@ -1,0 +1,37 @@
+.ets__main {
+  padding: 0;
+  margin: 0;
+}
+.ets__pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0;
+  button {
+    margin: 0 15px;
+    border: 0;
+    background: 0;
+  }
+  ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    li {
+      margin-right: 10px;
+      &:last-child {
+        margin-right: 0;
+      }
+      a {
+        font-family: $Montserrat;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 11px;
+        text-align: center;
+        color: $black;
+      }
+    }
+  }
+}

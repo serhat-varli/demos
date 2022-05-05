@@ -1,0 +1,164 @@
+.ets__add--card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    button {
+        i {
+            color: $black;
+        }
+    }
+    span {
+        font-family: $Montserrat;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15.1202px;
+        line-height: 15px;
+        color: $black;
+        margin-left: 10px;
+    }
+}
+
+.ets__add--filter {
+    position: relative;
+    button {
+        background: $white;
+        box-shadow: 0 1px 6px rgb(0 0 0 / 15%);
+        border-radius: 4.86007px;
+        width: 200px;
+        padding: 13px;
+        border: 0;
+        margin-bottom: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    ul {
+        position: absolute;
+        top: 56px;
+        z-index: 11;
+        background: $white;
+        box-shadow: 0px 0px 3px rgb(0 0 0 / 25%);
+        border-radius: 2.70004px;
+        list-style: none;
+        margin: 0;
+        width: 200px;
+        padding: 15px;
+        transform: translate(0px, 20px);
+        opacity: 0;
+        transition: all ease 0.3s;
+        visibility: hidden;
+        &.js-active {
+            transform: translate(0px, 0px);
+            opacity: 1;
+            visibility: visible;
+        }
+        li {
+            width: 100%;
+            margin-bottom: 10px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+            a {
+                font-family: $Montserrat;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 25px;
+                color: $black;
+            }
+        }
+    }
+}
+
+.ets__item--area {
+    background: $white;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.149372);
+    border-radius: 2.60079px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    margin-bottom: 30px;
+    .ets__delete {
+        position: absolute;
+        background: $black;
+        font-size: 16px;
+        border-radius: 100%;
+        width: 30px;
+        height: 30px;
+        border: 0;
+        color: $white;
+        right: 0;
+        top: -12px;
+        opacity: 0;
+        transition: all ease 0.3s;
+    }
+    &:hover {
+        .ets__delete {
+            opacity: 1;
+        }
+    }
+    .ets__img {
+        @media (max-width: 1023px) {
+            width: 100%;
+            margin-bottom: 15px;
+        }
+        img {
+            border-radius: 2.60079px;
+            @media (max-width: 1023px) {
+                width: 100%;
+            }
+        }
+    }
+    .ets__info--area {
+        width: calc(100% - 150px);
+        padding: 0 15px;
+        @media (max-width: 1023px) {
+            width: 100%;
+            padding: 0;
+        }
+        h2 {
+            font-family: $Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 15px;
+            color: $black;
+            margin: 0;
+        }
+        .ets__score--area {
+            display: flex;
+            max-width: 100%;
+            margin: 6px 0;
+            padding: 6px;
+            align-items: center;
+            flex-wrap: wrap;
+            @media (max-width: 1023px) {
+                padding: 0;
+            }
+            .ets__score {
+                background: $grey6;
+                border-radius: 2.60079px;
+                font-family: $Montserrat;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 13px;
+                line-height: 11px;
+                letter-spacing: 0.150509px;
+                color: $primary;
+                display: block;
+                padding: 12px;
+                width: calc(100% - 142px);
+                @media (max-width: 1023px) {
+                    width: 100%;
+                }
+            }
+            .ets__button-area {
+                width: 100%;
+                margin: 15px 0 0 0;
+                button {
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}

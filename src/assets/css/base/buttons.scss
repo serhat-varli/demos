@@ -1,0 +1,21 @@
+.btn {
+  border: 0.648125px solid $primary-second;
+  box-sizing: border-box;
+  border-radius: 3.111px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  color: $primary-second;
+  padding: 16px;
+  background: 0;
+  @media (max-width: 1023px) {
+    font-size: 13px;
+  }
+}
+.btn-primary {
+  background: $primary-second;
+  color: $white;
+}

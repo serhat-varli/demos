@@ -1,0 +1,41 @@
+/* General Colors */
+
+$primary: #0dc5bb;
+$primary-second: #056bfd;
+$grey1: #505050;
+$grey2: #909090;
+$grey3: #c1c1c1;
+$grey4: #d1d1d1;
+$grey5: #e1e1e1;
+$grey6: #f6f9fd;
+
+$shadow0: 0;
+$shadow1: rgba(0, 0, 0, 0.1);
+$shadow2: rgba(22, 22, 21, 0.2);
+$shadow3: rgba(0, 0, 0, 0.03);
+$shadow4: rgba(0, 0, 0, 0.05);
+$shadow5: rgba(22, 22, 21, 0.08);
+
+$borderColor1: $primary;
+$borderColor2: $primary-second;
+$borderColor3: $grey1;
+$borderColor4: $grey2;
+$borderColor5: $grey4;
+$borderColor6: $grey5;
+
+$white: #fff;
+$yellow: #ffcc00;
+$black: #1f2126;
+$smoked: #333;
+$smoked2: #252525;
+$red: #d93f3f;
+$blue: #5a8add;
+$lightblue: #4a90e2;
+$green: #36b759;
+$backgroundgray: #606a70;
+$customgray4: lightgray;
+
+$Montserrat: "Montserrat", sans-serif;
+.montserrat {
+  font-family: "Montserrat", sans-serif!important;
+}
